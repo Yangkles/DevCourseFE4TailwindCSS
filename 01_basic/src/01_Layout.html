@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="text-3xl font-bold mb-3">Container (컨테이너) </div>
+    <div class="container mx-auto px-4 sm:bg-slate-600 bg-slate-400 h-16">container!</div>
+    <br/><hr/><br/>
+    <h2 class="text-3xl font-bold mb-3">Aspect Ratio</h2>
+    <div class="aspect-square w-96">
+        <img src="../img/Image20250113122737.jpg" alt="randomImage" class="w-full h-full object-fill">
+    </div>
+    <div class="aspect-video w-96">
+        <img src="../img/Image20250113122737.jpg" alt="randomImage" class="w-full h-full object-fill">
+    </div>
+    <div class="aspect-w-16 aspect-h-9 w-96 mt-1">
+        <img src="../img/Image20250113122737.jpg" alt="randomImage" class="w-full h-full object-fill">
+    </div>
+    <br/><hr/><br/>
+    <h2 class="text-3xl font-bold mb-3">Columns</h2>
+    <div class="columns-4 gap-4">
+        <div class="bg-blue-100 p-4">column 1</div>
+        <div class="bg-blue-200 p-4">column 2</div>
+        <div class="bg-blue-300 p-4">column 3</div>
+        <div class="bg-blue-400 p-4">column 4</div>
+    </div>
+    <!-- columns 반응형 조작 -->
+    <div class="columns-4 sm:columns-2 lg:columns-4 gap-4">
+        <div class="m-2 bg-gray-100 p-4">column 1</div>
+        <div class="m-2 bg-gray-200 p-4">column 2</div>
+        <div class="m-2 bg-gray-300 p-4">column 3</div>
+        <div class="m-2 bg-gray-400 p-4">column 4</div>
+    </div>
+    <br/><hr/><br/>
+    <h2 class="text-3xl font-bold mb-3">Flex</h2>
+    <h2>Flex</h2>
+    <div class="flex">
+        <div class="bg-red-100 p-4">item 1</div>
+        <div class="bg-red-200 p-4">item 2</div>
+        <div class="bg-red-300 p-4">item 3</div>
+    </div>
+    <hr><br>
+    <h2>Flex-col</h2>
+    <div class="flex flex-col">
+        <div class="bg-red-100 p-4">item 1</div>
+        <div class="bg-red-200 p-4">item 2</div>
+        <div class="bg-red-300 p-4">item 3</div>
+    </div>
+    <hr><br>
+    <h2>Flex-row</h2>
+    <div class="flex flex-row">
+        <div class="bg-red-100 p-4">item 1</div>
+        <div class="bg-red-200 p-4">item 2</div>
+        <div class="bg-red-300 p-4">item 3</div>
+    </div>
+    <hr><br>
+    <h2>Flex-col-reverse</h2>
+    <div class="flex flex-col-reverse">
+        <div class="bg-red-100 p-4">item 1</div>
+        <div class="bg-red-200 p-4">item 2</div>
+        <div class="bg-red-300 p-4">item 3</div>
+    </div>
+    <hr><br>
+    <h2>Flex-row-reverse</h2>
+    <div class="flex flex-row-reverse">
+        <div class="bg-red-100 p-4">item 1</div>
+        <div class="bg-red-200 p-4">item 2</div>
+        <div class="bg-red-300 p-4">item 3</div>
+    </div>
+    <hr><br>
+    <h2>Flex justify-between</h2>
+    <div class="flex justify-between p-4 bg-gray-100">
+        <div class="p-4 bg-green-200">Item 1</div>
+        <div class="p-4 bg-green-300">Item 2</div>
+        <div class="p-4 bg-green-400">Item 3</div>
+    </div>
+    <hr><br>
+
+    <h2>items-center</h2>
+    <div class="flex items-center h-32 bg-gray-100">
+        <div class="p-4 bg-purple-200">Item 1</div>
+        <div class="p-4 bg-purple-300">Item 2</div>
+        <div class="p-4 bg-purple-400">Item 3</div>
+    </div>
+    <hr><br>
+
+    <h2>align-self</h2>
+    <div class="flex h-32">
+        <div class="self-start p-4 bg-red-200">Start</div>
+        <div class="self-center p-4 bg-red-300">Center</div>
+        <div class="self-end p-4 bg-red-400">End</div>
+    </div>
+    <hr><br>
+    <br/><hr/><br/>
+    <h2 class="text-3xl font-bold  mb-3">Grid</h2>
+    <div class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        <div class="bg-fuchsia-100 p-4">Item 1</div>
+        <div class="bg-fuchsia-200 p-4">Item 2</div>
+        <div class="bg-fuchsia-300 p-4">Item 3</div>
+        <div class="bg-fuchsia-400 p-4">Item 4</div>
+        <div class="bg-fuchsia-500 p-4">Item 5</div>
+        <div class="bg-fuchsia-600 p-4">Item 6</div>
+        <div class="bg-fuchsia-700 p-4">Item 7</div>
+    </div>
+</body>
+</html>
